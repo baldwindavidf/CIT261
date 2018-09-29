@@ -1,0 +1,35 @@
+.Div {
+    width: 22%;
+    display: inline-block;
+}
+
+.th {
+    width: 5%;
+    text-align: left;
+}
+.add {
+    background: rgb(025,025,025);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.add:hover {
+    background: rgb(075,075,075);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.add:active {
+    background: rgb(175,175,175);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
