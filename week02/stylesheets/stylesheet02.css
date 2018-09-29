@@ -9,7 +9,7 @@ input {
 }
 
 .Div {
-    width: 15%;
+    width: 17%;
     display: inline-block;
     text-align: center;
     margin-left: auto;
@@ -37,6 +37,7 @@ table {
     padding-left: 6px;
     padding-right: 6px;
     color: white;
+    margin: 2px;
 }
 
 .add:hover {
@@ -46,6 +47,8 @@ table {
     padding-left: 6px;
     padding-right: 6px;
     color: white;
+    margin: 2px;
+
 }
 
 .add:active {
@@ -55,5 +58,7 @@ table {
     padding-left: 6px;
     padding-right: 6px;
     color: white;
+        margin: 2px;
+
 }
 
