@@ -1,35 +1,55 @@
+h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .Div {
-    width: 22%;
+    width: 28%;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    text-align: center;
+}
+.Div5 {
     display: inline-block;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
 .th {
     width: 5%;
-    text-align: left;
 }
 .add {
     background: rgb(025,025,025);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
     color: white;
 }
 
 .add:hover {
     background: rgb(075,075,075);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
     color: white;
 }
 
 .add:active {
     background: rgb(175,175,175);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
     color: white;
 }
+
