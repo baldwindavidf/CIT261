@@ -4,8 +4,12 @@ h2 {
     margin-right: auto;
 }
 
-.Div {
+input {
     width: 20%;
+}
+
+.Div {
+    width: 15%;
     display: inline-block;
     text-align: center;
     margin-left: auto;
@@ -24,7 +28,7 @@ table {
     margin-right: auto;
 }
 .th {
-    width: 7%;
+    width: 10%;
 }
 .add {
     background: rgb(025,025,025);
