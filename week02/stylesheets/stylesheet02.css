@@ -5,7 +5,7 @@ h2 {
 }
 
 .Div {
-    width: 28%;
+    width: 20%;
     display: inline-block;
     text-align: center;
     margin-left: auto;
@@ -24,7 +24,7 @@ table {
     margin-right: auto;
 }
 .th {
-    width: 5%;
+    width: 7%;
 }
 .add {
     background: rgb(025,025,025);
