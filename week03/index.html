@@ -3,10 +3,68 @@
         <head>
             <meta charset="utf-8">
             <title>JavaScript Week 03</title>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <style> 
+.Div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    display: inline-block;
+
+}
+
+.Div:hover {
+    width: 300px;
+}
+
+body {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+</style>
         </head>
         <body>
-            <a href="../index.html">CIT 261 Main Page</a><br/>
+          <a href="../index.html">CIT 261 Main Page</a><br/>
                 <p>Week 03</p>
+            
+            
+            <h1>The transition Property</h1>
+
+<p>Hover over the div element below, to see the transition effect:</p>
+<div class="Div"></div>
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+            <br/>
+
+ <form id="form1" runat="server">
+    <div>
+        <div id="result"></div>
+    </div>
+</form>
+
+<script>
+    $(function () {
+        //define a json object
+        var employee = { "name": "John Johnson", "street": "Oslo West 16", "phone": "555 1234567" };
+
+        //use JSON.stringify to convert it to json string
+        var jsonstring = JSON.stringify(employee);
+        $("#result").append('<p>json string: ' + jsonstring + '</p><br/>');
+
+        //convert json string to json object using JSON.parse function
+        var jsonobject = JSON.parse(jsonstring);
+        var info = '<ul><li>Name:' + jsonobject.name + '</li><li>Street:' + jsonobject.street + '</li><li>Phone:' + jsonobject.phone + '</li></ul>';
+
+        $("#result").append('<p>json object:</p>');
+        $("#result").append(info);
+    });
+</script>
             
         </body>
         
