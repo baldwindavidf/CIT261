@@ -45,7 +45,7 @@ body {
         -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
     transition: width 2s, height 2s, transform 2s;
     font-family: monospace;
-    font-size: 1.3em;
+    font-size: .9em;
 }
 .Div7:hover {
 
@@ -55,7 +55,7 @@ body {
        -webkit-transform: rotate(360deg); 
     transform: rotate(360deg);
         font-family: monospace;
-    font-size: 1.5em;
+    font-size: 1.em;
 }
 .Div9 {
     background-color: rgb(175,185,195);
