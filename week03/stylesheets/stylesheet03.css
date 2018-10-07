@@ -32,21 +32,24 @@ body {
 }
 
 .Div7 {
-    background-color: rgb(175,185,195);
-    padding: 5px;
+    background-color: rgb(035,035,035);
+    color: white;
+    padding: 10px;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    -webkit-transition: height 2s; 
-    transition: height 2s;
     -webkit-transition: font-size 1s; 
     transition: font-size 1s;
+        -webkit-transition: width 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, transform 2s;
 }
 .Div7:hover {
-    background-color: rgb(165,185,165);
-    color: darkred;
-    /*width: 97%;*/
+ 
+ 
+    width: 97%;
     font-size: 1.03em;
+       -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
 }
 .Div9 {
     background-color: rgb(175,185,195);
@@ -58,14 +61,14 @@ body {
 .Div8 {
     background-color: black;
     padding: 5px;
-    width: 50%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
     -webkit-transition: width 2s; 
     transition: width 2s;
 }
 .Div8:hover {
-   /* width: 55%;*/
+    width: 55%;
 }
 
 table {
