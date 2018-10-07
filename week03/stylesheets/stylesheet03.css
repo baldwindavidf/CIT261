@@ -30,6 +30,20 @@ body {
     width: 95%;
 }
 
+.Div7 {
+    background-color: rgb(175,185,195);
+    padding: 5px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Div8 {
+    background-color: black;
+    padding: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 table {
     margin-left: auto;

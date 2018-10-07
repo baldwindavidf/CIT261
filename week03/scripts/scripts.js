@@ -20,7 +20,8 @@ function add() {
      it.push(myArray[i] + "<br/>");
     
     }
-    //document.getElementById("Div2").innerHTML = itemsArray.item;
+    store(myArray);
+    
     localStorage.setItem('items', JSON.stringify(it));
    data = JSON.parse(localStorage.getItem('items'));
    
@@ -30,19 +31,26 @@ function add() {
   document.getElementById('item').value = "";
 }
 
+var items2 = [];
+
+function store(item_id) {
+    items2.push(item_id);
+    localStorage.setItem("items2", JSON.stringify(items2));
+   // document.getElementById("Div3").innerHTML = items2
+}
 
 function load() {
-   var itemsArray = {item: ""};
    var data = {item: ""};
-   var newItem = {item: ""};
-    var myArray = [];
-   var x;
-
-    
-   data = JSON.parse(localStorage.getItem('items'));
+    var x;
+   var my_string = "";
     
     
-    document.getElementById("Div2").innerHTML = data + "<br/>";
+   data = JSON.parse(localStorage.getItem('items2'));
+    for (x = 0 ; x < data.length; x++) {
+    my_string += data[x] + "<br/>";
+    }
+    
+    document.getElementById("Div2").innerHTML = my_string;
    
 
 }
