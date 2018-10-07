@@ -32,6 +32,7 @@ for (i = 0; i < nameArray.length; i++) {
 document.getElementById("myDiv2").innerHTML += textStatement1;
 document.getElementById("myDiv3").innerHTML += textStatement2;
 document.getElementById("myDiv4").innerHTML += relation.type;
+   
 
 
 }
