@@ -42,10 +42,11 @@ body {
     margin-right: auto;
     -webkit-transition: font-size 2s; 
     transition: font-size 2s;
-        -webkit-transition: width 2s, height 2s, -webkit-transform 5s; 
+    -webkit-transition: width 2s, height 2s, -webkit-transform 5s; 
     transition: width 2s, height 2s, transform 5s;
     font-family: monospace;
     font-size: .8em;
+    transition:all 3.3s ease;
     
 }
 .Div7:hover {
@@ -53,10 +54,11 @@ body {
     
     width: 95%;
     
-    /*   -webkit-transform: rotate(360deg); 
-    transform: rotate(360deg);*/
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
         font-family: monospace;
     font-size: 1.5em;
+    background:#53a7ea;
 }
 .Div9 {
     background-color: rgb(175,185,195);

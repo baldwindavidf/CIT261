@@ -110,18 +110,22 @@ function getPhpData(string) {
 					
                }
            }
-    
+
+           data2 = JSON.parse(localStorage.getItem('items2'));
+ 
            if (string.length == 0) { 
            document.getElementById("text").innerHTML = "";
            return;
            }
- 
+
            xhttp.onreadystatechange = function() {
            if (this.readyState == 4 && this.status == 200) {
            document.getElementById("text").innerHTML = this.responseText;
            }
            };
            xhttp.open("GET", "data.php?q="+string, true);
+           xhttp.open("GET", "data.php?stuff="+data2, true);
+           xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
            xhttp.send();   
 }
 
@@ -162,34 +166,4 @@ function getJsonData() {
            xhttp.send();
 }
 
-function encode( s ) {
-    var out = [];
-    for ( var i = 0; i < s.length; i++ ) {
-        out[i] = s.charCodeAt(i);
-    }
-    return new Uint8Array( out );
-}
-function addJson() {
-var button = document.getElementById( 'button' );
 
-    
-    var data = encode( JSON.stringify({
-        name: 'Example object',
-        child: {
-            name: 'Nested thing'
-        }
-    }, null, 4) );
-
-    var blob = new Blob( [ data ], {
-        type: 'application/octet-stream'
-    });
-    
-    url = URL.createObjectURL( blob );
-    var link = document.createElement( 'a' );
-    link.setAttribute( 'href', url );
-    link.setAttribute( 'download', 'example.json' );
-    
-    var event = document.createEvent( 'MouseEvents' );
-    event.initMouseEvent( 'click', true, true, window, 1, 0, 0, 0, 0, false, false, false, false, 0, null);
-    link.dispatchEvent( event );
-}

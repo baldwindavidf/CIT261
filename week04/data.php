@@ -31,17 +31,27 @@ $a[] = "Ellen";
 $a[] = "Wenche";
 $a[] = "Vicky";
 
+$stuff = $_REQUEST["stuff"];
+
 // get the q parameter from URL
 $q = $_REQUEST["q"];
+$string = preg_replace('/\s+/', '', $stuff);
+$myArray = explode(',', strtolower($stuff));
 
+    
 $hint = "";
 
 // lookup all hints from array if $q is different from "" 
 if ($q !== "") {
     $q = strtolower($q);
-    $len=strlen($q);
-    foreach($a as $name) {
-        if (stristr($q, substr($name, 0, $len))) {
+    $len=strlen(utf8_decode($q));
+    echo $len;
+    foreach($myArray as $name) {
+        echo $name;
+        $sleg = strlen($name);
+        echo $sleg;
+        echo $len;
+        if (stristr($q, substr($name, 0 , 1))) {
             if ($hint === "") {
                 $hint = $name;
             } else {
@@ -52,5 +62,6 @@ if ($q !== "") {
 }
 
 // Output "no suggestion" if no hint was found or output correct values 
-echo $hint === "" ? "no suggestion" : $hint;
+echo $hint === "" ? "no match" : $hint;
+
 ?>
