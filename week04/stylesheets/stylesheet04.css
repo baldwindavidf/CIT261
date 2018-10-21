@@ -54,8 +54,8 @@ body {
     
     width: 95%;
     
-    -webkit-transform: rotate(360deg); 
-    transform: rotate(360deg);
+    /*-webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);*/
         font-family: monospace;
     font-size: 1.5em;
     background-color: rgb(085,135,135);
@@ -119,3 +119,7 @@ table {
 
 }
 
+.button {
+    border-radius: 12px;
+    color: black;
+}
