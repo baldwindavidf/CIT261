@@ -37,7 +37,7 @@ for (i = 0; i < nameArray.length; i++) {
 document.getElementById("myDiv2").innerHTML += textStatement1;
 document.getElementById("myDiv3").innerHTML += textStatement2;
 document.getElementById("myDiv4").innerHTML += relation.type;   
-document.getElementById("myDiv8").innerHTML += "Added"; 
+document.getElementById("myDiv8").innerHTML += "Added <br/>"; 
    load();
     getPhpData();
 document.getElementById("myNamef").value = "";
@@ -129,3 +129,18 @@ function show() {
     }
 }
 
+function display() {
+    var x = document.getElementById("Div12");
+    var y = document.getElementById("Div8");
+    var z = document.getElementById("buttonDis");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        z.innerHTML = "Search Standard List";
+    } else {
+        x.style.display = "none";
+        y.style.display = "block";
+        z.innerHTML = "Search Drop Down List";
+    }
+
+}
