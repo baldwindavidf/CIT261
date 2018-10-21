@@ -1,0 +1,125 @@
+h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 30%;
+}
+
+.Div {
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .9em;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(125,145,155);
+    margin-bottom: 100px;
+}
+.Div5 {
+    display: inline-block;
+
+}
+
+.Div6 {
+    width: 95%;
+}
+
+.Div7 {
+    
+    background-color: rgb(035,035,035);
+    color: white;
+    padding: 10px;
+    width: 95%;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: font-size 2s; 
+    transition: font-size 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 5s; 
+    transition: width 2s, height 2s, transform 5s;
+    font-family: monospace;
+    font-size: .8em;
+    transition:all 3.3s ease;
+    
+}
+.Div7:hover {
+
+    
+    width: 95%;
+    
+    /*-webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);*/
+        font-family: monospace;
+    font-size: 1.5em;
+    background-color: rgb(085,135,135);
+}
+.Div9 {
+    background-color: rgb(175,185,195);
+    padding: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Div8 {
+    background-color: black;
+    padding: 5px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: width 2s; 
+    transition: width 2s;
+}
+.Div8:hover {
+    width: 98%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.th {
+    width: 200px;
+}
+.add {
+    background: rgb(025,025,025);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+    margin: 2px;
+}
+
+.add:hover {
+    background: rgb(075,075,075);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+    margin: 2px;
+
+}
+
+.add:active {
+    background: rgb(175,175,175);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+    margin: 2px;
+
+}
+
+.button {
+    border-radius: 12px;
+    color: black;
+}
