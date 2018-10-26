@@ -74,7 +74,7 @@ function store(item_id) {
         ctx.fillStyle = "#44ffdd";
         ctx.fillRect(0, 0, 100, 100);
         var img = document.getElementById("email");
-        ctx.drawImage(img,3,3);
+        ctx.drawImage(img,12,8);
    var data = {item: ""};
     var x;
    var my_string = "";
