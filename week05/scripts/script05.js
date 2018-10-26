@@ -69,6 +69,12 @@ function store(item_id) {
 }
     
     function load() {
+        var canvas = document.getElementById("myCan");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#44ffdd";
+        ctx.fillRect(0, 0, 100, 100);
+        var img = document.getElementById("email");
+        ctx.drawImage(img,3,3);
    var data = {item: ""};
     var x;
    var my_string = "";
@@ -133,14 +139,17 @@ function display() {
     var x = document.getElementById("Div12");
     var y = document.getElementById("Div8");
     var z = document.getElementById("buttonDis");
+
     if (x.style.display === "none") {
         x.style.display = "block";
         y.style.display = "none";
-        z.innerHTML = "Search Standard List";
+        z.innerHTML = "Search By Standard List";
     } else {
         x.style.display = "none";
         y.style.display = "block";
-        z.innerHTML = "Search Drop Down List";
+        z.innerHTML = "Search By Drop Down List";
     }
-
+   
 }
+
+

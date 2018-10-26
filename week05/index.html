@@ -14,13 +14,16 @@
             <a href="../index.html">CIT 261 Main Page</a><br/>
                 <p>Week 05</p>
             <!--<button id="button" onclick="stuff();">Save JSON</button>-->
-            <div id="myDiv1" class="">
-             <h2>Email Contact List
+            <div id="myDiv1" class="div1">
+            <canvas class="canvas" id="myCan" width="70" height="70"style="border:1px solid #000000;">
+            </canvas>
+            <h2>Email Contact List
              <button  class="button" onclick="show();">?</button><br/>
             </h2>
             <div style="display:none" id="myDiv12">
-             <video width="700" controls>
-                <source src="zoom_0.mp4" type="video/mp4">
+
+             <video id="vid" width="700" controls>
+                <source src="zoom_1.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
               </video>
             </div>
@@ -75,11 +78,14 @@
                
              <br/>
 
-                    <button id="buttonDis" onclick="display();">Search Standard List</button>
+                    <button id="buttonDis" onclick="display();">Search By Standard List</button>
                     
                     <div style="display:block" id="Div12" class="">
-                        <p class="">Drop Down List</p>
-                    <p> <span id="text"></span></p> 
+
+                             <p class="">Drop Down List</p>
+                             <p> <span id="text"></span></p> 
+                            
+                         
                     </div>
         
                 <div style="display:none" id="Div8" class="Div8">
@@ -88,7 +94,7 @@
                       </div>
                 </div>
                  
-             
+             <img style="display:none" id="email" src="email.png">
         
         </body>
         
