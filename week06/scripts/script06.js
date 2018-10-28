@@ -38,8 +38,9 @@ document.getElementById("myDiv2").innerHTML += textStatement1;
 document.getElementById("myDiv3").innerHTML += textStatement2;
 document.getElementById("myDiv4").innerHTML += relation.type;   
 document.getElementById("myDiv8").innerHTML += "Added <br/>"; 
-   load();
+    load();
     getPhpData();
+    createElm();
 document.getElementById("myNamef").value = "";
 document.getElementById("myNamel").value = "";
 document.getElementById("myEmail").value = "";
@@ -79,7 +80,7 @@ function store(item_id) {
     var x;
    var my_string = "";
    data2 = JSON.parse(localStorage.getItem('items2'));
- 
+      
     for (x = 0 ; x < data2.length; x++) {
     my_string += data2[x] + "<br/>";
     }
@@ -152,4 +153,13 @@ function display() {
    
 }
 
+function createElm() {
+    newlink = document.createElement('a');
+    newlink.innerHTML = document.getElementById("myNamef").value + " " + document.getElementById("myNamel").value ;
+    newlink.setAttribute('title', newlink.innerHTML);
+    newlink.setAttribute('href', 'mailto:' + document.getElementById("myEmail").value);
+    breakL = document.createElement("br");
+    document.body.appendChild(newlink);
+    document.body.appendChild(breakL);
+}
 
