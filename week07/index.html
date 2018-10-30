@@ -9,15 +9,18 @@
             <link rel="stylesheet" type="text/css"  href="stylesheets/stylesheet07.css"/>
 
         </head>
-        <body onload="load(), getPhpData(), createElm();">
+        <body id="bd1" onload="load(), getPhpData(), createElm();">
         
             <a href="../index.html">CIT 261 Main Page</a><br/>
-                <p>Week 07</p>
+                <p id="th1" >Week 07</p>
+
+                <button id="btnTh"  onclick="themeChange();" >Dark Theme</button><br/><br/>
             <!--<button id="button" onclick="stuff();">Save JSON</button>-->
+            
             <div id="myDiv1" class="div1">
             <canvas class="canvas" id="myCan" width="90" height="80"style="border:1px solid #000000;">
             </canvas>
-            <h2>Email Contact List
+            <h2 id="t2" >Email Contact List
              <button  class="button" onclick="show();">?</button><br/>
             </h2>
             <div style="display:none" id="myDiv12">
@@ -42,7 +45,7 @@
             </div><br/><br/>
 
             <div id=Div class="Div6">
-                <table>
+                <table id="t6">
                     <thead>
                         <tr>
                             <th class="th">Name</th>
@@ -82,21 +85,21 @@
                     
                     <div style="display:block" id="Div12" class="">
 
-                             <p class="">Drop Down List</p>
+                             <p id="t5">Drop Down List</p>
                              <p> <span id="text"></span></p> 
                             
                          
                     </div>
         
                 <div style="display:none" id="Div8" class="Div8">
-                    <p class="Div9">Standard Stored List</p>
+                    <p id="t3" class="Div9">Standard Stored List</p>
                       <div id="Div7" class="Div7">
                       </div>
                 </div>
                  
              <img style="display:none" id="email" src="email.png">
              <br/>
-             <p>Email list with clickable link</p>
+             <p id="t4">Email list with clickable link</p>
         </body>
         
     </html>

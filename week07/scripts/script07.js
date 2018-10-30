@@ -163,3 +163,28 @@ function createElm() {
     document.body.appendChild(breakL);
 }
 
+function themeChange() {
+    if (document.getElementById("btnTh").innerHTML == "Dark Theme")
+    {
+    document.getElementById("th1").style.color = "white";
+    document.getElementById("t2").style.color = "white";
+    document.getElementById("t3").style.color = "white";
+    document.getElementById("t4").style.color = "white";
+    document.getElementById("t5").style.color = "white";
+    document.getElementById("t6").style.color = "white";
+    document.getElementById("bd1").style.backgroundColor = "#333333";
+    document.getElementById("btnTh").innerHTML = "Light Theme";
+    }
+    else
+    {
+    document.getElementById("th1").style.color = "black";
+    document.getElementById("t2").style.color = "black";
+    document.getElementById("t3").style.color = "black";
+    document.getElementById("t4").style.color = "black";
+    document.getElementById("t5").style.color = "black";
+    document.getElementById("t6").style.color = "black";
+    document.getElementById("bd1").style.backgroundColor = "#eeeeee";
+    document.getElementById("btnTh").innerHTML = "Dark Theme";
+    }
+
+}
