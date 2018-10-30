@@ -19,9 +19,14 @@ input {
 
 body {
     text-align: center;
-    background-color: rgb(125,145,155);
+    background-color: "#eeeeee";
     margin-bottom: 100px;
 }
+.chTm {
+    float: right;
+    margin-right: 75px;
+}
+
 .Div5 {
     display: inline-block;
 
