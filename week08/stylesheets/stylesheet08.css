@@ -142,7 +142,7 @@ table {
 }
 .canvas {
     display: inline;
-    transition:all 3.3s ease;
+    transition:all 2.2s ease;
     transform: all 2.2s ease;
 }
 
