@@ -219,3 +219,25 @@ function fontChange() {
     }
 
 }
+
+function settings() {
+    if (document.getElementById("btnSet").innerHTML == "Settings")
+    {
+    document.getElementById("settings").className = "setting1";
+    document.getElementById("btnSet").innerHTML = "Close"
+    window.setTimeout(function() {
+    document.getElementById("btnTh").style.display = "block";}, 300);
+    window.setTimeout(function() {
+    document.getElementById("btnTh2").style.display = "block";}, 300);
+    
+    }
+    else
+    {
+    document.getElementById("settings").className = "setting2";
+    document.getElementById("btnSet").innerHTML = "Settings"
+    window.setTimeout(function() {
+    document.getElementById("btnTh").style.display = "none";}, 1700);
+    window.setTimeout(function() {
+    document.getElementById("btnTh2").style.display = "none";}, 1700);
+    }
+}
