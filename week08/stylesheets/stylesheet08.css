@@ -166,20 +166,20 @@ table {
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-    0%   {background-color:grey;border-radius:0px; width: 0%;  height: 36px; }
+    0%   {background-color:white;border-radius:0px; width: 0%;  height: 36px; }
   
     100% {background-color:grey; border-radius:0px;width: 100%; height: 36px;}
 }
 
 /* Standard syntax */
 @keyframes example {
-    0%   {background-color:grey;border-radius:0px; width: 0%;  height: 36px; }
+    0%   {background-color:white;border-radius:0px; width: 0%;  height: 36px; }
   
     100% {background-color:grey; border-radius:0px;width: 100%; height: 36px;}
 }
 .setting2 {
  
-    background-color: grey;
+    background-color: white;
     position: relative;
     width: 0%;
     height: 0%;
@@ -193,14 +193,14 @@ table {
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example2 {
-    0%   {background-color: gray;border-radius:0px; width: 0%;  height: 36px; }
+    0%   {background-color: white;border-radius:0px; width: 0%;  height: 36px; }
   
     100% {background-color:grey; border-radius:0px;width: 100%; height: 36px;}
 }
 
 /* Standard syntax */
 @keyframes example2 {
-    0%   {background-color:grey;border-radius:0px; width: 0%;  height: 36px; }
+    0%   {background-color:white;border-radius:0px; width: 0%;  height: 36px; }
   
     100% {background-color:grey; border-radius:0px;width: 100%; height: 36px;}
 }
