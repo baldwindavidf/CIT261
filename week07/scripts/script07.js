@@ -188,3 +188,34 @@ function themeChange() {
     }
 
 }
+
+function fontChange() {
+    if (document.getElementById("btnTh2").innerHTML == "Small Font")
+    {
+    document.getElementById("t2").className = "small"; 
+    document.getElementById("t3").className = "small"; 
+    document.getElementById("t4").className = "small"; 
+    document.getElementById("t5").className = "small"; 
+    document.getElementById("t6").className = "small"; 
+    document.getElementById("btnTh2").innerHTML = "Normal Font";
+    }
+    else if (document.getElementById("btnTh2").innerHTML == "Normal Font")
+    {
+    document.getElementById("t2").className = "normal"; 
+    document.getElementById("t3").className = "normal"; 
+    document.getElementById("t4").className = "normal"; 
+    document.getElementById("t5").className = "normal"; 
+    document.getElementById("t6").className = "normal"; 
+    document.getElementById("btnTh2").innerHTML = "Large Font";
+    }
+    else if (document.getElementById("btnTh2").innerHTML == "Large Font")
+    {
+    document.getElementById("t2").className = "large"; 
+    document.getElementById("t3").className = "large";
+    document.getElementById("t4").className = "large";
+    document.getElementById("t5").className = "large";
+    document.getElementById("t6").className = "large";
+    document.getElementById("btnTh2").innerHTML = "Small Font";
+    }
+
+}

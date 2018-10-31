@@ -17,6 +17,17 @@ input {
     font-size: .9em;
 }
 
+.small {
+    font-size: 0.7em;
+}
+.normal {
+    font-size: 1.0em;
+}
+
+.large {
+    font-size: 1.5em;
+}
+
 body {
     text-align: center;
     background-color: "#eeeeee";
@@ -24,7 +35,7 @@ body {
 }
 .chTm {
     float: right;
-    margin-right: 75px;
+    margin-right: 25px;
 }
 
 .Div5 {
