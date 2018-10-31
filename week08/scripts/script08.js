@@ -226,9 +226,9 @@ function settings() {
     document.getElementById("settings").className = "setting1";
     document.getElementById("btnSet").innerHTML = "Close"
     window.setTimeout(function() {
-    document.getElementById("btnTh").style.display = "block";}, 300);
+    document.getElementById("btnTh").style.display = "block";}, 400);
     window.setTimeout(function() {
-    document.getElementById("btnTh2").style.display = "block";}, 300);
+    document.getElementById("btnTh2").style.display = "block";}, 400);
     
     }
     else
@@ -236,8 +236,8 @@ function settings() {
     document.getElementById("settings").className = "setting2";
     document.getElementById("btnSet").innerHTML = "Settings"
     window.setTimeout(function() {
-    document.getElementById("btnTh").style.display = "none";}, 1700);
+    document.getElementById("btnTh").style.display = "none";}, 1600);
     window.setTimeout(function() {
-    document.getElementById("btnTh2").style.display = "none";}, 1700);
+    document.getElementById("btnTh2").style.display = "none";}, 1600);
     }
 }
