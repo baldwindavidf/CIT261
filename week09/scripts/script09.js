@@ -258,7 +258,13 @@ function moblie() {
     if (x.className == "Div7" || x.className == "Div73") {
     x.className = "Div72";
     }
-    else {
-        x.className = "Div73";
+
+} 
+
+function moblie2() {
+    var x = document.getElementById("Div7");
+    if (x.className == "Div72" || x.className == "Div7") {
+    x.className = "Div73";
     }
+
 } 
