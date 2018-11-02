@@ -70,8 +70,8 @@ function store(item_id) {
 }
     
     function load() {
-        window.addEventListener('touchstart', mobile1, false);
-window.addEventListener('touchend', mobile2, false);
+        document.addEventListener('touchstart', mobile1, false);
+        document.addEventListener('touchend', mobile2, false);
         var canvas = document.getElementById("myCan");
         var ctx = canvas.getContext("2d");
         ctx.fillStyle = "#44ffdd";
@@ -261,13 +261,13 @@ function moblie() {
 
 
 } 
-var mobile1 = function (event) {
+var mobile1 = function () {
     var x = document.getElementById("Div7");
     
     x.className = "Div72";
 };
 
-var mobile2 = function (event) {
+var mobile2 = function () {
     var x = document.getElementById("Div7");
     
     x.className = "Div73";
