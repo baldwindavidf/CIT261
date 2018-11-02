@@ -274,6 +274,6 @@ var mobile2 = function () {
     x.className = "Div73";
 };
 
-
-window.addEventListener('ontouchstart', mobile1, false);
-window.addEventListener('ontouchend', mobile2, false);
+var x = document.getElementById("Div7").
+x.addEventListener('touchstart', mobile1, true);
+x.addEventListener('touchend', mobile2, false);
