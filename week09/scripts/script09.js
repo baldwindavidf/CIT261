@@ -254,5 +254,11 @@ function myFunction() {
 }
 
 function moblie() {
-    document.getElementById("Div7").className = "Div72";
+    var x = document.getElementById("Div7");
+    if (x.className = "Div7") {
+    x.className = "Div72";
+    }
+    else {
+        x.className = "Div7";
+    }
 } 
