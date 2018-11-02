@@ -254,7 +254,7 @@ function myFunction() {
     }, 200)
 }
 
-function moblie1() {
+function mobile1() {
     var x = document.getElementById("Div7");
 
      x.className = "Div72";
