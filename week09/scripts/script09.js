@@ -274,5 +274,5 @@ var mobile2 = function () {
 };
 
 
-window.addEventListener('touchstart', mobile1, false);
-window.addEventListener('touchend', mobile2, false);
+window.addEventListener('ontouchstart', mobile1, false);
+window.addEventListener('ontouchend', mobile2, false);
