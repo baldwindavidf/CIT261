@@ -71,8 +71,8 @@ function store(item_id) {
     
     function load() {
         var x = document.getElementById("Div7").
-        x.addEventListener('ontouchstart', mobile1, true);
-        x.addEventListener('ontouchend', mobile2, false);
+        x.addEventListener('touchstart', mobile1, true);
+        x.addEventListener('touchend', mobile2, false);
         var canvas = document.getElementById("myCan");
         var ctx = canvas.getContext("2d");
         ctx.fillStyle = "#44ffdd";
