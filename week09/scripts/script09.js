@@ -70,8 +70,9 @@ function store(item_id) {
 }
     
     function load() {
-        window.addEventListener('ontouchstart', mobile1, true);
-        window.addEventListener('ontouchend', mobile2, false);
+        var x = document.getElementById("Div7").
+        x.addEventListener('ontouchstart', mobile1, true);
+        x.addEventListener('ontouchend', mobile2, false);
         var canvas = document.getElementById("myCan");
         var ctx = canvas.getContext("2d");
         ctx.fillStyle = "#44ffdd";
