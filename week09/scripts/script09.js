@@ -70,9 +70,7 @@ function store(item_id) {
 }
     
     function load() {
-        var x = document.getElementById("Div7").
-        x.addEventListener('touchstart', mobile1, true);
-        x.addEventListener('touchend', mobile2, false);
+
         var canvas = document.getElementById("myCan");
         var ctx = canvas.getContext("2d");
         ctx.fillStyle = "#44ffdd";
@@ -257,25 +255,8 @@ function myFunction() {
 }
 
 function moblie() {
-   // var x = document.getElementById("Div7");
-    //x.className = "Div72";
-    var x = document.getElementById("Div7").
-    x.addEventListener('ontouchstart', mobile1, false);
-    x.addEventListener('ontouchend', mobile2, false);
+    var x = document.getElementById("Div7");
+    x.className = "Div72";
+
 
 } 
-var mobile1 = function () {
-    var x = document.getElementById("Div7");
-    
-    x.className = "Div72";
-};
-
-var mobile2 = function () {
-    var x = document.getElementById("Div7");
-    
-    x.className = "Div73";
-};
-
-var x = document.getElementById("Div7").
-x.addEventListener('touchstart', mobile1, false);
-x.addEventListener('touchend', mobile2, false);
