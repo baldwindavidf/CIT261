@@ -256,7 +256,7 @@ function myFunction() {
 
 function mobile() {
     var x = document.getElementById("Div7");
-    if (x.className == "Div7") {
+    
      x.className = "Div72";
-    }
+    
 } 
