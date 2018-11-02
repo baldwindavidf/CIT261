@@ -260,10 +260,11 @@ function moblie() {
 
 } 
 
-function moblie2() {
+var mobile2 = function (event) {
     var x = document.getElementById("Div7");
     
     x.className = "Div73";
-    
+};
 
-} 
+
+window.addEventListener('click', mobile2, false);
