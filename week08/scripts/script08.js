@@ -85,6 +85,7 @@ function store(item_id) {
     my_string += data2[x] + "<br/>";
     }
     document.getElementById("Div7").innerHTML = my_string.replace(/,/g, "<br/>");
+   // window.getElementById("myBttn").addEventListener("click", myFunction);
     }
 
 function getPhpData() {
@@ -240,4 +241,14 @@ function settings() {
     window.setTimeout(function() {
     document.getElementById("btnTh2").style.display = "none";}, 1600);
     }
+}
+
+function myFunction() {
+    
+    var d = new Date();
+    document.getElementById("d1").innerHTML = d.getMonth() + "/" + d.getDay() + "/" + d.getFullYear();
+    
+    window.setTimeout(function() {
+    document.getElementById("d1").className = "img4";
+    }, 200)
 }
