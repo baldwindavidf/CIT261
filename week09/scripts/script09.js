@@ -260,8 +260,8 @@ function moblie() {
    // var x = document.getElementById("Div7");
     //x.className = "Div72";
     var x = document.getElementById("Div7").
-    x.addEventListener('touchstart', mobile1, false);
-    x.addEventListener('touchend', mobile2, false);
+    x.addEventListener('ontouchstart', mobile1, false);
+    x.addEventListener('ontouchend', mobile2, false);
 
 } 
 var mobile1 = function () {
