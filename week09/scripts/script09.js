@@ -260,3 +260,9 @@ function mobile() {
      x.className = "Div72";
     
 } 
+function mobile2() {
+    var x = document.getElementById("Div7");
+    
+     x.className = "Div73";
+    
+} 

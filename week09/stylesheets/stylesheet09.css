@@ -99,7 +99,23 @@ body {
     background-color: rgb(207, 53, 79);
 }
 
-
+.Div72 {
+    color: white;
+    padding: 10px;
+    width: 95%;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: font-size 2s; 
+    transition: font-size 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 5s; 
+    transition: width 2s, height 2s, transform 5s;
+    font-family: monospace;
+    transition:all 3.3s ease;
+    font-family: monospace;
+    font-size: 1.5em;
+    background-color: rgb(19, 77, 235);
+}
 
 .Div9 {
     background-color: rgb(175,185,195);
