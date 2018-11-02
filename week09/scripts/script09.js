@@ -257,9 +257,11 @@ function myFunction() {
 }
 
 function moblie() {
-    var x = document.getElementById("Div7");
-    x.className = "Div72";
-
+   // var x = document.getElementById("Div7");
+    //x.className = "Div72";
+    var x = document.getElementById("Div7").
+    x.addEventListener('touchstart', mobile1, true);
+    x.addEventListener('touchend', mobile2, false);
 
 } 
 var mobile1 = function () {
