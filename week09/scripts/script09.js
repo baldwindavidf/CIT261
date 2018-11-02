@@ -256,5 +256,7 @@ function myFunction() {
 
 function moblie1() {
     var x = document.getElementById("Div7");
-    x.className = "Div72";
+   
+    x.classList.remove("Div7");
+     x.className = "Div72";
 } 
