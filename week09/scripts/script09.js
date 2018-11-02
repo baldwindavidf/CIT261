@@ -255,10 +255,10 @@ function myFunction() {
 
 function moblie() {
     var x = document.getElementById("Div7");
-    if (x.className = "Div7") {
+    if (x.className == "Div7" || x.className == "Div73") {
     x.className = "Div72";
     }
     else {
-        x.className = "Div7";
+        x.className = "Div73";
     }
 } 
