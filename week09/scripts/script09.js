@@ -266,3 +266,10 @@ function mobile2() {
      x.className = "Div73";
     
 } 
+
+function focused(x) {
+    x.style.backgroundColor = "yellow";
+}
+function blured(x) {
+    x.style.backgroundColor = "white";
+}
