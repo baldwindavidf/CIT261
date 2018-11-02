@@ -246,7 +246,7 @@ function settings() {
 function myFunction() {
     
     var d = new Date();
-    document.getElementById("d1").innerHTML = d.getMonth() + "/" + d.getDay() + "/" + d.getFullYear();
+    document.getElementById("d1").innerHTML = d.getMonth() + 1 + "/" + d.getDate() + "/" + d.getFullYear();
     
     window.setTimeout(function() {
     document.getElementById("d1").className = "img4";
